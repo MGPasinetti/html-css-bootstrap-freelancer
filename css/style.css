@@ -21,7 +21,7 @@ html {
 }
 
 .row > * {
-    background-color: tomato!important;
+    background-color: tomato;
     height: 2rem;
     margin-bottom: 1rem;
 }
@@ -50,9 +50,40 @@ main > div:nth-child(odd) {
 
 /* portfolio */
 .row.portfolio {
-    height: 60rem;
+    flex-direction: column;
 }
 
+.row.portfolio .bckg {
+    height: 15rem;
+    border-radius: .5rem;
+}
+
+.row.portfolio > div:nth-child(3) {
+    background-color: #BA4B63;
+}
+
+.row.portfolio > div:nth-child(4) {
+    background-color: #1EA4B6;
+}
+
+.row.portfolio > div:nth-child(5) {
+    background-color: #140F0F;
+}
+
+.row.portfolio > div:nth-child(6) {
+    background-color: #1C83C1;
+}
+
+.row.portfolio > div:nth-child(7) {
+    background-color: #0E38B5;
+}
+
+.row.portfolio > div:nth-child(8) {
+    background-color: #CCB2A3;
+}
+
+
+/* form */
 .row.form {
     height: 20rem;
 }
