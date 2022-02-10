@@ -16,7 +16,25 @@ header {
 
 /* MAIN */
 main div:nth-child(odd) {
-    height: 10rem;
+    height: 20rem;
     background-color: #1ABC9C;
     color: white;
+}
+
+.row.portfolio {
+    height: 60rem;
+}
+
+.row.form {
+    height: 20rem;
+}
+
+.row.contacts {
+    height: 15rem;
+    background-color: #3A546D;
+}
+
+.row.copyright {
+    height: 4rem;
+    background-color: #2C3E50;
 }
