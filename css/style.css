@@ -1,3 +1,9 @@
+:root {
+    --bckg-primary: #2C3E50;
+    --bckg-teal: #1ABC9C;
+    --bckg-secondary: #3A546D;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +12,38 @@
 
 html {
     background-color: white;
+    color: white;
 }
+
+/* UTILITY CLASSES */
+.row {
+    height: 100%;
+}
+
+.row > * {
+    background-color: tomato;
+    height: 2rem;
+}
+
+/* [class*=".col-"] {
+    display: flex;
+} */
 
 /* HEADER */
 header {
     height: 3.5rem;
-    background-color: #2C3E50;
+    background-color: var(--bckg-primary);
+    color: white;
+}
+
+header .row {
+    padding: 1rem 0;
 }
 
 /* MAIN */
 main div:nth-child(odd) {
     height: 20rem;
-    background-color: #1ABC9C;
+    background-color: var(--bckg-teal);
     color: white;
 }
 
@@ -29,12 +55,13 @@ main div:nth-child(odd) {
     height: 20rem;
 }
 
+/* FOOTER */
 .row.contacts {
     height: 15rem;
-    background-color: #3A546D;
+    background-color: var(--bckg-secondary);
 }
 
 .row.copyright {
     height: 4rem;
-    background-color: #2C3E50;
+    background-color: var(--bckg-primary);
 }
