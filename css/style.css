@@ -94,15 +94,20 @@ main > div:nth-child(odd) {
 
 /* form */
 .row.form {
+    flex-direction: column;
+}
 
+.row.form .col-6 {
+    height: 15rem;
 }
 
 /* FOOTER */
 .row.contacts {
     background-color: var(--bckg-secondary);
+    flex-direction: column;
 }
 
 .row.copyright {
-    height: 4rem;
     background-color: var(--bckg-primary);
+    flex-direction: column;
 }
