@@ -82,15 +82,23 @@ main > div:nth-child(odd) {
     background-color: #CCB2A3;
 }
 
+/* about */
+.row.about {
+    flex-direction: column;
+}
+
+.row.about .col-7 {
+    height: fit-content;
+    font-size: 12px;
+}
 
 /* form */
 .row.form {
-    height: 20rem;
+
 }
 
 /* FOOTER */
 .row.contacts {
-    height: 15rem;
     background-color: var(--bckg-secondary);
 }
 
