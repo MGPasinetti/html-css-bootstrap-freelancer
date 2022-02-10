@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    height: 3.5rem;
+    background-color: #2C3E50;
+}
+
+/* MAIN */
+main div:nth-child(odd) {
+    height: 10rem;
+    background-color: #1ABC9C;
+    color: white;
+}
