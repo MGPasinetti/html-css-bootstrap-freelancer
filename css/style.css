@@ -50,13 +50,12 @@ main > div:nth-child(odd) {
     flex-direction: column;
 }
 
-.jumbo .img {
-    width: 9rem;
-    height: 10rem;
+.jumbo .col-4 {
+    height: 9rem;
 }
 
 .jumbo .h1 {
-    width: 11rem;
+    width: 12rem;
 }
 
 
