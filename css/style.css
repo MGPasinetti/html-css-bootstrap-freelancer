@@ -1,26 +1,22 @@
 :root {
-    --bckg-primary: #2C3E50;
-    --bckg-teal: #1ABC9C;
-    --bckg-secondary: #3A546D;
+    --darkgrey-color: 44, 62, 80;
+    --green-color: 26, 188, 156;
+    --lightergrey-color: 58, 84, 109;
+    --white-color: 255, 255, 255;
+    --black-color: 0, 0, 0;
 }
 
+/* UTILITY CLASSES */
 .py-6 {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
+/* HEADER */
 header {
-    background-color: var(--bckg-primary);
+    background-color: rgb(var(--darkgrey-color));
+    color: rgb(var(--white-color));
 }
-
-/* .container {
-    background-color: brown;
-} */
-
-/* .row {
-    background-color: burlywood;
-    height: 100%;
-} */
 
 header .row > :first-child {
     background-color: chartreuse;
@@ -28,20 +24,30 @@ header .row > :first-child {
 }
 
 header .row > :last-child {
-    background-color: crimson;
+    background-color: tomato;
     height: 100%;
 }
 
+/* JUMBOTRON */
 .jumbotron {
-    background-color: var(--bckg-teal);
+    background-color: rgb(var(--green-color));
+    color: rgb(var(--white-color));
 }
 
-.cards [class*="col"] {
-    /* height: 300px;
-    background-color: brown; */
+
+/* CARDS */
+.cards {
+    background-color: rgb(var(--white-color));
+    color: rgb(var(--black-color));
 }
 
 .card {
     height: 300px;
-    background-color: brown;
+    background-color: tomato;
+}
+
+/* ABOUT */
+.about {
+    background-color: rgb(var(--green-color));
+    color: rgb(var(--white-color));
 }
