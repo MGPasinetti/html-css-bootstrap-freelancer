@@ -16,25 +16,23 @@
     margin-top: 72px;
 }
 
+.fs_7 {
+    font-size: 2rem;
+} 
+
 /* NAVBAR */
 nav {
     background-color: rgb(var(--darkgrey-color));
 }
 
-/* header .row > :first-child {
-    background-color: chartreuse;
-    height: 100%;
-} */
-
-/* header .row > :last-child {
-    background-color: tomato;
-    height: 100%;
-} */
-
 /* JUMBOTRON */
 .jumbotron {
     background-color: rgb(var(--green-color));
     color: rgb(var(--white-color));
+}
+
+.jumbotron img {
+    width: 15rem;
 }
 
 
