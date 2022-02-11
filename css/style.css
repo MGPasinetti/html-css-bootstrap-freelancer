@@ -6,11 +6,17 @@
     --black-color: 0, 0, 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 /* UTILITY CLASSES */
 .py-6 {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+/* NAVBAR */
 
 /* HEADER */
 header {
@@ -18,15 +24,15 @@ header {
     color: rgb(var(--white-color));
 }
 
-header .row > :first-child {
+/* header .row > :first-child {
     background-color: chartreuse;
     height: 100%;
-}
+} */
 
-header .row > :last-child {
+/* header .row > :last-child {
     background-color: tomato;
     height: 100%;
-}
+} */
 
 /* JUMBOTRON */
 .jumbotron {
@@ -51,3 +57,4 @@ header .row > :last-child {
     background-color: rgb(var(--green-color));
     color: rgb(var(--white-color));
 }
+
