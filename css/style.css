@@ -6,22 +6,15 @@
     --black-color: 0, 0, 0;
 }
 
-html {
-    font-size: 16px;
-}
-
 /* UTILITY CLASSES */
-.py-6 {
+.py_6 {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 /* NAVBAR */
-
-/* HEADER */
-header {
+nav {
     background-color: rgb(var(--darkgrey-color));
-    color: rgb(var(--white-color));
 }
 
 /* header .row > :first-child {
