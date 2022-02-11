@@ -12,6 +12,10 @@
     padding-bottom: 4rem;
 }
 
+.mt_6 {
+    margin-top: 72px;
+}
+
 /* NAVBAR */
 nav {
     background-color: rgb(var(--darkgrey-color));
