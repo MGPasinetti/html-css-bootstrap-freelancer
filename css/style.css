@@ -35,6 +35,12 @@ nav {
     width: 15rem;
 }
 
+.line {
+    width: 3rem;
+    border: 1.5px solid white;
+    border-radius: .1em;
+}
+
 
 /* CARDS */
 .cards {
