@@ -16,6 +16,18 @@
     margin-top: 72px;
 }
 
+.star {
+    width: 12rem;
+    margin-bottom: .5rem;
+}
+
+.line {
+    max-width: 4.5rem;
+    height: 0;
+    border: .1em solid;
+    border-radius: .4em;
+}
+
 /* NAVBAR */
 nav {
     background-color: rgb(var(--darkgrey-color));
@@ -29,17 +41,6 @@ nav {
 
 .jumbotron img {
     width: 15rem;
-}
-
-.star {
-    width: 12rem;
-}
-
-.line {
-    max-width: 4.5rem;
-    height: 0;
-    border: 1.5px solid white;
-    border-radius: .1em;
 }
 
 /* CARDS */
