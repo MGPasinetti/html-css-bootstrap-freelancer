@@ -28,6 +28,10 @@
     border-radius: .4em;
 }
 
+.rounded_4 {
+    border-radius: .5rem;
+}
+
 /* NAVBAR */
 nav {
     background-color: rgb(var(--darkgrey-color));
@@ -51,7 +55,41 @@ nav {
 
 .card {
     height: 300px;
-    background-color: tomato;
+}
+
+/* .card img {
+    height: 100%;
+    object-fit: cover;
+} */
+
+.cards .card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards .row_cards .col:first-child .card {
+    background-image: url(../img/cabin.png);
+}
+
+.cards .row_cards .col:nth-child(2) .card {
+    background-image: url(../img/cake.png);
+}
+
+.cards .row_cards .col:nth-child(3) .card {
+    background-image: url(../img/circus.png);
+}
+
+.cards .row_cards .col:nth-child(4) .card {
+    background-image: url(../img/game.png);
+}
+
+.cards .row_cards .col:nth-child(5) .card {
+    background-image: url(../img/safe.png);
+}
+
+.cards .row_cards .col:nth-child(6) .card {
+    background-image: url(../img/submarine.png);
 }
 
 /* ABOUT */
