@@ -118,3 +118,27 @@ nav {
     color: rgb(var(--white-color));
 }
 
+.about button {
+    color: white;
+    border-color: white;
+}
+
+.about button:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.about .btn-outline-success:active {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.about .btn-outline-success:active:focus {
+    box-shadow: none;
+}
+
+.about .btn-outline-success:focus {
+    box-shadow: none;
+}
